@@ -1,5 +1,5 @@
 # SemEval_2023_Task_6A
-Code developed by the IRIT_IRIS team to participate in the SemEval 2023 Task 6A (Legal Rhetorical Role Labeling)
+Code developed by the IRIT_IRIS team to participate in the SemEval 2023 Task 6A (Legal Rhetorical Role Labeling). Details are available in the respective paper: (TODO: *link to the paper*).
 
 ### Folders' description
 - **Cohan_and_Sharing_edges**: models based on Cohan and Sharing edges chunk layouts.
@@ -10,6 +10,8 @@ Code developed by the IRIT_IRIS team to participate in the SemEval 2023 Task 6A 
 ### Running models
 
 Each folder contains a running script for each model. For example, to run the **DFCSC-CLS RoBERTa** model we execute the `DFCSC-CLS/run_RoBERTa.py` file. Running a model yields the respective report file. There is no command line parameters.
+
+This repository does not contain the target dataset, though it is available at this [link](https://github.com/Legal-NLP-EkStep/rhetorical-role-baseline). Each model folder in this repository has a `application.py` file (the **DFCSC-CLS** folder has also the `application_longformer.py` file) that sets the path of the dataset. Before running a model, set this path accordingly the location of the dataset on your system.
 
 The hyperparameters of a model can be set in the respective `run_*` script. In the following we describe such hyperparameters.
 

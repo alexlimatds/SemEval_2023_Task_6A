@@ -1,5 +1,5 @@
 # SemEval_2023_Task_6A
-Code developed by the IRIT_IRIS team to participate in the SemEval 2023 Task 6A (Legal Rhetorical Role Labeling). Details are available in the respective paper: (TODO: *link to the paper*).
+Code developed by the IRIT_IRIS team to participate in the SemEval 2023 Task 6A (Legal Rhetorical Role Labeling). Details are available in the respective paper: [IRIT_IRIS_A at SemEval-2023 Task 6: Legal Rhetorical Role Labeling Supported by Dynamic-Filled Contextualized Sentence Chunks](https://aclanthology.org/2023.semeval-1.125/).
 
 ### Folders' description
 - **Cohan_and_Sharing_edges**: models based on Cohan and Sharing edges chunk layouts.
